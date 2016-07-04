@@ -1,16 +1,20 @@
 {
   "name": "generator-theHobbyist-html5",
   "version": "0.1.0",
-  "description": "",
+  "description": "A simple html5 boilerplate for my personal use...",
   "files": [
-    "app",
-    "router"
+    "generators/app"
   ],
   "keywords": [
     "yeoman-generator"
   ],
   "author": "theHobbyist",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theHobbyistGit/generator-theHobbyist-html5.git"
+  },
   "dependencies": {
-    "yeoman-generator": "^0.23.4"
+    "yeoman-generator": "^0.23.4",
+    "yosay": "^1.2.0"
   }
 }
