@@ -1,0 +1,16 @@
+{
+  "name": "generator-theHobbyist-html5",
+  "version": "0.1.0",
+  "description": "",
+  "files": [
+    "app",
+    "router"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "theHobbyist",
+  "dependencies": {
+    "yeoman-generator": "^0.23.4"
+  }
+}
