@@ -1,6 +1,6 @@
 {
   "name": "generator-theHobbyist-html5",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple html5 boilerplate for my personal use...",
   "files": [
     "generators/app"
