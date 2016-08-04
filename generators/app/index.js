@@ -9,13 +9,13 @@ module.exports = generators.Base.extend({
   },
 
   prompting: function() {
-    return this.prompt({
+    return this.prompt([{
       type: 'input',
       name: 'name',
       message: 'Your project name',
       //Defaults to the project's folder name if the input is skipped
       default: this.appname
-    }).then(function(answers) {
+    }]).then(function(answers) {
       this.props = answers
       this.log(answers.name);
     }.bind(this));
